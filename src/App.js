@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import { Chatbot } from 'rag-chatbot-ui-bajaj'
+ import { Chatbot } from 'rag-chatbot-ui-rahi'
 import "./App.css";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <div className="app">
         <h1 className="welcome-text">Chatbot Demo for RAHI Technology</h1>
       </div>
-      {/* <Chatbot/> */}
+      <Chatbot/>
     </Router>
   );
 }
