@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <h1 className="welcome-text">Welcome to My Website</h1>
+        <h1 className="welcome-text">Chatbot Demo for RAHI Technology</h1>
       </div>
       <Chatbot/>
     </Router>
